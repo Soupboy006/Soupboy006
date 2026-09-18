@@ -2,13 +2,12 @@
 
 **Non-tech builder shipping Android apps & tools with AI (OpenCode). Learning by building.**
 
-- Building: camera apps, Termux tools, mobile experiments
-- Workflow: AI-assisted development — idea, build, test, ship, frequently
-- Stack: Android (Camera2), Termux, OpenCode
-- Currently: polishing CamCheck Pro (manual RAW camera)
+- 🔨 Building: camera apps, Termux tools, mobile experiments
+- 🤖 Workflow: AI-assisted development — idea, build, test, ship, frequently
+- 🧰 Stack: Android (Camera2), Termux, Go, OpenCode
+- 🎯 Currently: polishing CamCheck Pro (manual RAW camera)
 
-## Pinned work
-- wayfare — non-custodial quote engine for the USDC to NGN corridor on Stellar
-- tgstream — Telegram media streaming experiments
+## Featured work
+- **[tgstream](https://github.com/Soupboy006/tgstream)** — stream Telegram videos straight to your video player. No downloading, full seek support. Written in Go, runs 100% locally.
 
-Not a professional developer — just shipping and learning in public.
+*Not a professional developer — just shipping and learning in public.*
