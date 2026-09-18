@@ -16,6 +16,7 @@ I'm a self-taught experimenter building Android and AI-powered tools, one projec
 
 ## Featured work
 - **[welcome](https://github.com/Soupboy006/welcome)** — start here! Friendly intro point for non-tech beginners to say hi and ask anything.
+- **[prompt-pack](https://github.com/Soupboy006/prompt-pack)** — copy-paste AI prompts for daily life. No coding needed. Perfect first contribution.
 - **[tgstream](https://github.com/Soupboy006/tgstream)** — stream Telegram videos straight to your video player. No downloading, full seek support. Written in Go, runs 100% locally.
 
 ---
@@ -28,7 +29,7 @@ I'm a self-taught experimenter building Android and AI-powered tools, one projec
 **You are very welcome here! Say hi in [welcome](https://github.com/Soupboy006/welcome/issues/1) to ask anything, suggest an idea, or just introduce yourself.**
 
 ### 💡 How you can get involved
-- ⭐ Star or try my projects
+- ⭐ Star or try [prompt-pack](https://github.com/Soupboy006/prompt-pack) — add your prompt in plain words
 - Open an Issue to ask questions or suggest features
 - Fork, remix, or hack on anything (all open source, always)
 
