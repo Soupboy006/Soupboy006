@@ -15,6 +15,7 @@ I'm a self-taught experimenter building Android and AI-powered tools, one projec
 - 🎯 Currently: polishing CamCheck Pro (manual RAW camera)
 
 ## Featured work
+- **[welcome](https://github.com/Soupboy006/welcome)** — start here! Friendly intro point for non-tech beginners to say hi and ask anything.
 - **[tgstream](https://github.com/Soupboy006/tgstream)** — stream Telegram videos straight to your video player. No downloading, full seek support. Written in Go, runs 100% locally.
 
 ---
@@ -24,7 +25,7 @@ I'm a self-taught experimenter building Android and AI-powered tools, one projec
 - Curious but don't know how to start
 - Wanting to learn in public, ship messy and early
 
-**You are very welcome here! Open an Issue to ask anything, suggest an idea, or just say hi.**
+**You are very welcome here! Say hi in [welcome](https://github.com/Soupboy006/welcome/issues/1) to ask anything, suggest an idea, or just introduce yourself.**
 
 ### 💡 How you can get involved
 - ⭐ Star or try my projects
