@@ -1,33 +1,24 @@
-# Hi, I'm Soupboy 👋
+# Soupboy
 
-**Non-tech builder shipping Android apps and developer tools with AI.**
+**I build and ship Android apps and developer tools by directing AI.**
 
-I'm not a coder and not a software engineer. I build software by directing AI ([OpenCode](https://opencode.ai)) — idea, prompt, test, ship, repeat. Everything here is proof that you don't need a computer science degree to make real things.
+I don't hand-write the code — I plan the work, direct AI ([OpenCode](https://opencode.ai)), test on real hardware, and ship. No computer science degree, no team.
 
-## What I build
+## Shipped and maintained upstream
 
-- **[tgstream](https://github.com/Soupboy006/tgstream)** — stream Telegram videos straight to your video player. No downloading, full seek support. Written in Go, runs 100% locally.
-- **[prompt-pack](https://github.com/Soupboy006/prompt-pack)** — copy-paste AI prompts for daily life. No coding needed.
-- **[welcome](https://github.com/Soupboy006/welcome)** — a friendly starting point for non-tech beginners to connect, ask, and build together.
-- **CamCheck / opencamera** — Android camera experiments (Camera2, manual RAW).
+Real fixes in the tools I depend on:
 
-## Contributing upstream
-
-Learning by fixing real bugs in the projects I actually use:
-
-- **Termux packages** — keeping [Turborepo](https://github.com/vercel/turborepo) (`turbo`) buildable on Android by replacing its ghostty/zig terminal dependency with a pure-Rust fallback, so it builds on all four architectures.
-- **tdl (Telegram downloader)** — added byte-level resume so an interrupted download continues instead of starting over.
+- **Turborepo on Android** ([termux-packages#32649](https://github.com/termux/termux-packages/pull/32649)) — made `turbo` build on all four Termux architectures by replacing its ghostty/zig terminal dependency with a pure-Rust fallback.
+- **tdl byte-level resume** ([iyear/tdl#1388](https://github.com/iyear/tdl/pull/1388)) — interrupted Telegram downloads now continue where they stopped instead of starting over.
+- **tgstream** ([repo](https://github.com/Soupboy006/tgstream)) — stream Telegram videos straight to your video player. No downloading, full seek support. Go, 100% local.
+- **prompt-pack** ([repo](https://github.com/Soupboy006/prompt-pack)) — copy-paste AI prompts for daily life. No coding needed.
 
 ## How I work
 
-- 🤖 **AI-directed** — I plan, test, and ship with AI writing the code
-- 🧰 **Stack** — Android, Termux, Go, shell, OpenCode
-- 📣 **In public** — messy, early, and honest
+- AI writes the code; I bring the judgment — what to build, what to verify, what to ship.
+- Verified on real hardware (Android / Termux), not just in theory.
+- Built and fixed in public — ideas, mistakes, and fixes all visible.
 
 ## For non-coders
 
-If you're a beginner wondering how to start: you're welcome here. Open an issue, say hi in [welcome](https://github.com/Soupboy006/welcome/issues/1), or grab something from [prompt-pack](https://github.com/Soupboy006/prompt-pack). No experience needed.
-
----
-
-*Not a professional developer — just shipping and learning in public. If that's your vibe, let's build together.*
+Want to start but think you can't? You're welcome here. Say hi in [welcome](https://github.com/Soupboy006/welcome/issues/1), or fork anything — it's all open source.
