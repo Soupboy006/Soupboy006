@@ -10,8 +10,11 @@ Real fixes in the tools I depend on:
 
 - **Turborepo on Android** ([termux-packages#32649](https://github.com/termux/termux-packages/pull/32649)) — made `turbo` build on all four Termux architectures by replacing its ghostty/zig terminal dependency with a pure-Rust fallback.
 - **tdl byte-level resume** ([iyear/tdl#1388](https://github.com/iyear/tdl/pull/1388)) — interrupted Telegram downloads now continue where they stopped instead of starting over.
-- **tgstream** ([repo](https://github.com/Soupboy006/tgstream)) — stream Telegram videos straight to your video player. No downloading, full seek support. Go, 100% local.
-- **prompt-pack** ([repo](https://github.com/Soupboy006/prompt-pack)) — copy-paste AI prompts for daily life. No coding needed.
+- **termux-packages revbump** ([#32175](https://github.com/termux/termux-packages/pull/32175)) — fixed dependency parsing for packages with version constraints.
+
+## Currently
+
+Building **tgstream** (local Telegram video streaming in Go) and keeping Termux packages buildable on Android.
 
 ## How I work
 
